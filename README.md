@@ -11,7 +11,7 @@ So, if you want to distinguish your PD Incidents per subject queue, you'll need 
 If you are okay with aggregating errors from several subject queues into one PD Incident grouping, then you'll just set up one IronWorker with a `pagerduty_incident_key` indicating the aggregation.
 
 # Config
-This worker expects three values are configured for it, in the HUD Dashboard:
+This worker expects these values are configured for it, via the HUD Dashboard:
 ```yaml
 pagerduty_api_key: EXAMPLE_KEY
 pagerduty_service_key: ANOTHER_EXAMPLE_KEY
