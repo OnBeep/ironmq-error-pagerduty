@@ -1,0 +1,5 @@
+pagerduty_api_key: EXAMPLE_KEY
+pagerduty_service_key: ANOTHER_EXAMPLE_KEY
+pagerduty_subdomain: EXAMPLE_SUBDOMAIN
+pagerduty_incident_key: EXAMPLE_INCIDENT_KEY
+

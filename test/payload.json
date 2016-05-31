@@ -1,0 +1,13 @@
+{
+  "source_message_id": "6287988621459144854",
+  "body": "Example contents of a queue message",
+  "subscribers": [
+    {
+      "name": "",
+      "url": "http://example.com/no-way/no-how",
+      "code": 500,
+      "msg": "Post http://example.com/no-way/no-how: dial tcp: lookup example.com on 127.0.0.1:80: no such host"
+    }
+  ]
+}
+
