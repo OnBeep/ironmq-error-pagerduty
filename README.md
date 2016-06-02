@@ -39,3 +39,12 @@ This worker expects the standard IronMQ Error message as payload:
 # Result
 This will create/update a PagerDuty Incident. The incident name look like
 "Queue Error for example_incident_key".
+
+# Testing
+
+You can test the container locally with Docker by calling `make test`
+
+# Deploying
+
+Similarly as above, if you have properly configured your local environment
+with iron client, you can run `make deploy` to package your worker for upload

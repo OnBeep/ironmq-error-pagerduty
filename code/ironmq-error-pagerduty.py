@@ -1,3 +1,6 @@
+import sys
+sys.path.append("packages")
+
 import pygerduty
 
 from iron_worker import *
