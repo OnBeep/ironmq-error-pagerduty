@@ -12,11 +12,13 @@ If you are okay with aggregating errors from several subject queues into one PD 
 
 # Config
 This worker expects these values are configured for it, via the HUD Dashboard:
-```yaml
-pagerduty_api_key: EXAMPLE_KEY
-pagerduty_service_key: ANOTHER_EXAMPLE_KEY
-pagerduty_subdomain: EXAMPLE_SUBDOMAIN
-pagerduty_incident_key: EXAMPLE_INCIDENT_KEY
+```json
+{
+    "pagerduty_api_key": "EXAMPLE_KEY",
+    "pagerduty_service_key": "ANOTHER_EXAMPLE_KEY",
+    "pagerduty_subdomain": "EXAMPLE_SUBDOMAIN",
+    "pagerduty_incident_key": "EXAMPLE_INCIDENT_KEY"
+}
 ```
 
 # Payload
