@@ -33,7 +33,7 @@ ironio_test:
 # Deploy tasks
 
 zip_code:
-	zip -r ironmq-error-pagerduty.zip
+	zip -r ironmq-error-pagerduty.zip .
 
 upload:
-	$(IRON_CMD) upload --name $(PROJECT_NAME) --zip ironmq-error-pagerduty.zip iron/python:2 python code/ironmq-error-pagerduty.py
+	$(IRON_CMD) worker upload --name $(PROJECT_NAME) --zip ironmq-error-pagerduty.zip iron/python:2 python code/ironmq-error-pagerduty.py
