@@ -1,7 +1,6 @@
 # Makefile for ironmq-error-pagerduty.
 #
 # Author:: Mike Juarez <mike@orionlabs.io>
-# License:: # Copyright (c) 2016 Orion Labs, Inc., All Rights Reserved.
 # Source:: https://github.com/OnBeep/ironmq-error-pagerduty
 #
 
